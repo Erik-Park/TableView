@@ -7,12 +7,12 @@ TableView Tutorial
 
 구조
 view
-	Navigation Bar (just title)
-	TableView
-		Table Info Section
-		Table Header (fixed)
-		Table Cell Top Content
-		Table Cells
+-> Navigation Bar (just title)
+-> TableView
+-> -> Table Info Section
+-> -> Table Header (fixed)
+-> -> Table Cell Top Content
+-> -> Table Cells
 
 1. 테이블뷰 초기화
 2. 테이블 정보 표시
