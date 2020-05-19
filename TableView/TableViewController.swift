@@ -19,6 +19,7 @@ class TableViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        self.setDataList()
         self.initializeTableView()
     }
 
@@ -38,8 +39,6 @@ extension TableViewController: UITableViewDelegate {
     func initializeTableView() {
         self.tableView.delegate = self
         self.tableView.dataSource = self
-
-        self.setDataList()
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
